@@ -39,7 +39,7 @@ android {
 }
 
 dependencies {
-    val composeBom = platform("androidx.compose:compose-bom:2024.09.00")
+    val composeBom = platform("androidx.compose:compose-bom:2024.04.01")
     implementation(composeBom)
     androidTestImplementation(composeBom)
 
@@ -62,8 +62,8 @@ dependencies {
     implementation("dev.chrisbanes.haze:haze:1.0.0")
 
     // Artwork loading
-    implementation("io.coil-kt.coil3:coil-compose:3.6.3")
-    implementation("io.coil-kt.coil3:coil-network-okhttp:3.6.3")
+    implementation("io.coil-kt:coil-compose:2.6.0")
+    implementation("io.coil-kt:coil-network-okhttp:2.6.0")
 
     // YouTube Music search + streams (no API key needed)
     implementation("com.github.TeamNewPipe:NewPipeExtractor:v0.26.5")
