@@ -59,7 +59,7 @@ dependencies {
     implementation("androidx.media3:media3-ui:1.4.1")
 
     // Frosted glass
-    implementation("dev.chrisbanes.haze:haze:1.7.3")
+    implementation("dev.chrisbanes.haze:haze:1.0.0")
 
     // Artwork loading
     implementation("io.coil-kt.coil3:coil-compose:3.6.3")
