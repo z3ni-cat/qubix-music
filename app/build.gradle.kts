@@ -63,7 +63,6 @@ dependencies {
 
     // Artwork loading
     implementation("io.coil-kt:coil-compose:2.6.0")
-    implementation("io.coil-kt:coil-network-okhttp:2.6.0")
 
     // YouTube Music search + streams (no API key needed)
     implementation("com.github.TeamNewPipe:NewPipeExtractor:v0.26.5")
